@@ -63,6 +63,18 @@ nav > ul li a {
     font-weight: 400;
     margin: 0px;
 }
+.hamburger {
+    display: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
 #home {
     color: #FF5400;
 }
@@ -144,5 +156,78 @@ nav > ul li a:hover {
     padding-left: 10px;
     padding-right: 10px;
 
+}
+
+
+
+
+/* responsive media queries */
+/* for mobile device */
+@media screen and (max-width: 600px) {
+    .b-margin {
+        margin: 0px 10px ;
+        }
+    nav {
+        overflow: hidden;
+        position: relative;
+    }
+    nav > ul {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .banner {
+        padding-top: 150px;
+        height: 500px;
+        background-size: cover;
+    }
+    .banner-title {
+        font-size:2rem;
+    }
+    .banner-description {
+        padding-left: 0px;
+        padding-right:0px;
+    }
+    .input-field {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+
+
+/* tablet or medium devices */
+@media screen and (min-width:600px) and (max-width:992px){
+    .b-margin {
+        margin: 0px 30px ;
+        }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav > ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-title {
+        font-size: 2.5rem;
+    }
 }
 
