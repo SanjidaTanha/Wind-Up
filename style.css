@@ -294,6 +294,103 @@ nav>ul li a:hover {
 
 
 
+/* tour-guide-related styles */
+.tour-guide-container {
+    margin-top: 100px;
+    background-image: url('./Images/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    height: 400px;
+    padding-top: 40px;
+
+}
+
+.tour-guide-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.selectGuide-info {
+    border-radius: 8px;
+    background-color: rgba(244, 227, 227, 0.5);
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 40%;
+    padding: 15px;
+}
+
+.guide-info {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 0.68888rem;
+    font-weight: 400;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#date {
+    height: 30px;
+    width: 40%;
+}
+
+.expectation-container {
+    border-radius: 8px;
+    background-color: rgba(244, 227, 227, 0.5);
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 40%;
+    padding: 10px;
+}
+
+legend {
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+#expectations {
+    background: #dedef7;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+    margin: 10px 30px;
+}
+
+.guide-btn {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+.submit-btn {
+    border-radius: 8px;
+    background: rgb(43, 31, 57);
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: none;
+    width: 200px;
+    height: 45px;
+}
+
+.submit-btn:hover {
+    color: #FF5400;
+}
+
+
+
 
 /* facilities related style */
 .facilities-container {
@@ -626,6 +723,8 @@ nav>ul li a:hover {
     }
 
     .popular-tour-img {
+        margin-top: 100px;
+        margin-bottom: 100px;
         padding-top: 0px;
         width: 100%
     }
@@ -635,6 +734,26 @@ nav>ul li a:hover {
         flex-direction: column;
         gap: 3px;
     }
+
+    .tour-guide-container {
+        height: 600px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .tour-guide-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .guide-btn {
+        width: 100%;
+    }
+
 
     .facilities-description-box {
         display: flex;
@@ -665,6 +784,9 @@ nav>ul li a:hover {
         width: 88%;
         margin-left: 0px;
     }
+
+
+
 
 
 
@@ -724,6 +846,8 @@ nav>ul li a:hover {
     }
 
     .popular-tour-img {
+        margin-top: 100px;
+        margin-bottom: 100px;
         padding-top: 0px;
         width: 100%
     }
@@ -732,6 +856,25 @@ nav>ul li a:hover {
         display: flex;
         flex-direction: column;
         gap: 3px;
+    }
+
+    .tour-guide-container {
+        height: 600px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .tour-guide-info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .guide-btn {
+        width: 100%;
     }
 
     .facilities-description-box {
