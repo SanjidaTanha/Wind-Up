@@ -297,7 +297,7 @@ nav>ul li a:hover {
 /* tour-guide-related styles */
 .tour-guide-container {
     margin-top: 100px;
-    background-image: url('./Images/bg1.jpg');
+    background-image:linear-gradient(180deg, rgba(0,0,0,0.4430147058823529) 18%, rgba(0,0,0,0.27494747899159666) 82%, rgba(0,0,0,0) 100%),url('./Images/bg2.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -307,7 +307,7 @@ nav>ul li a:hover {
 
 }
 .guide-title {
-    color: #131318;
+    color: white;
     font-size: 1.55rem;
     font-weight: 800;
     text-align: center;
@@ -318,9 +318,9 @@ nav>ul li a:hover {
     color: #FF5400;
 }
 .tour-guide-description {
-    color: rgba(19, 19, 24, 0.70);
+    color: white;
     font-size: 0.7;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 162.5%;
     width: 27.68475rem;
     text-align: center;
@@ -337,7 +337,7 @@ nav>ul li a:hover {
 
 .selectGuide-info {
     border-radius: 8px;
-    background-color: rgba(239, 209, 209, 0.5);
+    background-color: rgba(255, 255, 255, 0.524);
     background-size: contain;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -365,7 +365,7 @@ nav>ul li a:hover {
 
 .expectation-container {
     border-radius: 8px;
-    background-color: rgba(239, 209, 209, 0.5);
+    background-color: rgba(255, 255, 255, 0.524);
     background-size: contain;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -381,7 +381,7 @@ legend {
 }
 
 #expectations {
-    background: #f7ecde;
+    background: #f9f9f8;
     padding-left: 10px;
     padding-top: 10px;
     border: none;
@@ -808,6 +808,10 @@ legend {
     .facilities-description-box {
         display: flex;
         flex-direction: column;
+    }
+    #expectations {
+        padding: 0;
+        margin: 4px;
     }
 
     #box-1 {
