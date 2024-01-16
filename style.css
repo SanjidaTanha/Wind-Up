@@ -494,7 +494,6 @@ legend {
 }
 
 .Subscribe {
-    width: 40%;
     height: 17.6rem;
     border-radius: 0.68888rem;
     border: 0.689px solid #FF5400;
@@ -552,9 +551,10 @@ legend {
     background-image: url('./Images/Rectangle\ 8\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 29.93331rem;
     height: 362px;
     border-radius: 0.68888rem;
+    position: relative;
 }
 
 
@@ -564,22 +564,21 @@ legend {
     transform: rotate(-19.628deg);
     border-radius: 0.68888rem;
     background: #FF5400;
+    position: absolute;
+    left: 52%;
+    top: 68%;
+    
+
 
 }
 
-.discount-container {
-    position: relative;
-    left: 305px;
-    top: 246px;
-
-}
 
 .discount-title {
     color: #FFF;
     text-align: center;
     font-size: 1.03331rem;
     font-weight: 400;
-    transform: rotate(-1.628deg);
+    transform: rotate(-1.828deg);
     margin: 0px;
     text-align: center;
     padding-top: 15px;
@@ -589,7 +588,7 @@ legend {
     color: #FFF;
     font-size: 1.37775rem;
     font-weight: 800;
-    transform: rotate(-1.628deg);
+    transform: rotate(-1.828deg);
     margin: 0px;
     text-align: center;
 }
@@ -726,7 +725,7 @@ legend {
     }
 
     #Where {
-        width: 96%;
+        width: 98.5%;
     }
 
     .input-info {
@@ -805,11 +804,13 @@ legend {
         justify-content: center;
         align-items: center;
     }
+    .subscribe-img-container {
+        width: 70%;
+    }
 
-    .discount-container {
-        position: relative;
-        left: 723px;
-        top: 246px;
+    .discount {
+        left: 65.8%;
+        top: 67%;
     }
 
 
@@ -851,7 +852,7 @@ legend {
     }
 
     #Where {
-        width: 93%;
+        width: 98%;
     }
 
     .input-info {
@@ -929,11 +930,13 @@ legend {
         justify-content: center;
         align-items: center;
     }
+    .subscribe-img-container {
+        width: 70%;
+    }
 
-    .discount-container {
-        position: relative;
-        left: 723px;
-        top: 246px;
+    .discount {
+        left: 65.8%;
+        top: 67%;
     }
 
 
