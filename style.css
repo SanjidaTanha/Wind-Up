@@ -4,6 +4,7 @@ body {
     width: 992px;
     margin: 0px auto;
 }
+
 .b-margin {
     margin: 0 60px;
 }
@@ -254,21 +255,27 @@ nav>ul li a:hover {
 #Indonesia {
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle\ 8.png');
 }
+
 #Srilanka {
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle\ 6.png');
 }
+
 #North-America {
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle\ 7.png');
 }
+
 #Kashmir {
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle\ 9.png');
 }
+
 #Bangladesh {
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle\ 11.png');
 }
+
 #Bandarban {
     background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle\ 10.png');
 }
+
 .destination-name {
     border-radius: 0.68888rem;
     background-repeat: no-repeat;
@@ -286,12 +293,93 @@ nav>ul li a:hover {
 }
 
 
+
+
+/* facilities related style */
+.facilities-container {
+    margin-top: 100px;
+
+}
+
+.facilities-title {
+    color: #131318;
+    text-align: center;
+    font-size: 1.72225rem;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.facilities-description-container {
+    display: flex;
+    justify-content: center;
+}
+
+.facilities-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 0.68888rem;
+    font-weight: 400;
+    line-height: 162.5%;
+    width: 27.68475rem;
+    margin-bottom: 35px;
+
+}
+
+.facilities-description-box {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    align-items: center;
+    gap: 1.03rem;
+}
+
+.box-img {
+    width: 2.75556rem;
+    height: 2.75556rem;
+}
+
+#box-1 {
+    border-radius: 0.68888rem;
+    border: 0.689px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+    width: 24.67081rem;
+    height: 12.22775rem;
+    padding: 1.38rem;
+}
+
+#box-2 {
+    width: 24.67081rem;
+    height: 12.22775rem;
+    border-radius: 0.68888rem;
+    border: 0.689px solid rgba(41, 206, 246, 0.20);
+    background-color: rgba(41, 206, 246, 0.05);
+    padding: 1.38rem;
+}
+
+#box-3 {
+    margin-top: 1.03rem;
+    width: 24.67081rem;
+    height: 12.22775rem;
+    border-radius: 0.68888rem;
+    border: 0.689px solid rgba(233, 68, 68, 0.20);
+    background-color: rgba(233, 68, 68, 0.05);
+    padding: 1.38rem;
+}
+
+
+
+
+
+
+
+/* .............................................................................. */
 /* responsive media queries */
 /* for mobile device */
 @media screen and (max-width: 600px) {
     .b-margin {
-        margin: 0px 10px;
+        margin: 0px 20px;
     }
+
     nav {
         overflow: hidden;
         position: relative;
@@ -364,10 +452,24 @@ nav>ul li a:hover {
         padding-top: 0px;
         width: 100%
     }
+
     .image-container {
         display: flex;
         flex-direction: column;
         gap: 3px;
+    }
+    .facilities-description-box {
+        display: flex;
+        flex-direction: column;
+    }
+    #box-1 {
+        width: 65%;
+    }
+    #box-2 {
+        width: 65%;
+    }
+    #box-3 {
+        width: 65%;
     }
 
 
@@ -431,9 +533,23 @@ nav>ul li a:hover {
         padding-top: 0px;
         width: 100%
     }
+
     .image-container {
         display: flex;
         flex-direction: column;
         gap: 3px;
+    }
+    .facilities-description-box {
+        display: flex;
+        flex-direction: column;
+    }
+    #box-1 {
+        width: 65%;
+    }
+    #box-2 {
+        width: 65%;
+    }
+    #box-3 {
+        width: 65%;
     }
 }
