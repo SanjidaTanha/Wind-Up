@@ -673,15 +673,20 @@ legend {
 @media screen and (max-width: 600px) {
     body {
         margin: 0 auto;
-        border: 1px solid orangered;
+        max-width: 600px;
     }
-    .b-margin {
+    /* .b-margin {
         margin: 0px 20px;
-    }
+    } */
 
     nav {
         overflow: hidden;
         position: relative;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        align-items: center;
     }
 
     nav>ul {
@@ -704,6 +709,8 @@ legend {
 
     .banner {
         padding-top: 150px;
+        margin: 0 auto;
+        width: 100%;
         height: 500px;
         background-size: cover;
     }
@@ -739,19 +746,21 @@ legend {
     .popular-tour-container {
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
         gap: 20px;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 100px;
     }
 
     .popular-tour {
-        width: 100%;
+        width: 70%;
     }
 
     .popular-tour-img {
         margin-top: 100px;
         margin-bottom: 100px;
         padding-top: 0px;
-        width: 100%
+        width: 70%
     }
 
     .image-container {
@@ -764,6 +773,22 @@ legend {
         height: 700px;
         margin-top: 100px;
         margin-bottom: 100px;
+    }
+    #Maldives,
+    #Indonesia,
+    #Srilanka,
+    #North-America,
+    #Kashmir,
+    #Bangladesh,
+    #Bandarban {
+        background-size: 100%;
+        margin: 10px auto;
+    }
+
+    .tour-guide-container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .tour-guide-info-container {
@@ -786,15 +811,15 @@ legend {
     }
 
     #box-1 {
-        width: 65%;
+        width: 80%;
     }
 
     #box-2 {
-        width: 65%;
+        width: 80%;
     }
 
     #box-3 {
-        width: 65%;
+        width: 80%;
     }
 
     .subscribe-container {
@@ -805,12 +830,22 @@ legend {
         align-items: center;
     }
     .subscribe-img-container {
-        width: 70%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .discount {
-        left: 65.8%;
+        left: 51.8%;
         top: 67%;
+    }
+    footer {
+       margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+    }
+    #footer-hr {
+       width: 70%;
     }
 
 
