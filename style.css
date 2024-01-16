@@ -297,7 +297,7 @@ nav>ul li a:hover {
 /* tour-guide-related styles */
 .tour-guide-container {
     margin-top: 100px;
-    background-image: url('./Images/bgimg.jpg');
+    background-image: url('./Images/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -315,7 +315,7 @@ nav>ul li a:hover {
 
 .selectGuide-info {
     border-radius: 8px;
-    background-color: rgba(244, 227, 227, 0.5);
+    background-color: rgba(239, 209, 209, 0.5);
     background-size: contain;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -343,7 +343,7 @@ nav>ul li a:hover {
 
 .expectation-container {
     border-radius: 8px;
-    background-color: rgba(244, 227, 227, 0.5);
+    background-color: rgba(239, 209, 209, 0.5);
     background-size: contain;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -359,7 +359,7 @@ legend {
 }
 
 #expectations {
-    background: #dedef7;
+    background: #f7ecde;
     padding-left: 10px;
     padding-top: 10px;
     border: none;
@@ -374,7 +374,7 @@ legend {
 
 .submit-btn {
     border-radius: 8px;
-    background: rgb(43, 31, 57);
+    background: #FF5400;
     background-size: cover;
     color: #FFF;
     text-align: center;
@@ -386,7 +386,7 @@ legend {
 }
 
 .submit-btn:hover {
-    color: #FF5400;
+    color: black;
 }
 
 
